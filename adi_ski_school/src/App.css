@@ -1,22 +1,23 @@
-.App {
-  text-align: center;
+.background-image {
+  /* The image used */
+  background-image: url("./images/adi-boySki.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
+.ctr-text {
+    position: absolute; 
+    margin-left: 10%; 
+    top: 20%; 
+    width: 100%;
+    color:#0e4142
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
