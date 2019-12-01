@@ -13,7 +13,6 @@ const panes = [
         },
         pane: { key: 'about', content: (<About />) },
     },
-
     {
         menuItem: {
             key: 'Kids',
@@ -26,7 +25,6 @@ const panes = [
             // textAlign: 'center',
         },
     },
-
     {
         menuItem: {
             key: 'adults',
@@ -40,8 +38,17 @@ const panes = [
     }
 ]
 
+const menu = {
+    secondary: true,
+    pointing: true
+}
+
 export const Tabs = () => (
-    <Tab panes={panes} renderActiveOnly={false} />
+    <Tab
+        panes={panes}
+        menu={menu}
+        renderActiveOnly={false}
+    />
 )
 
 

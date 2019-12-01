@@ -22,7 +22,7 @@ export class HomePage extends Component {
                         />
                     </h1>
                 </div>
-                <Tabs grid="12" />
+                <Tabs menuPosition="right" />
             </div>
         )
     }
