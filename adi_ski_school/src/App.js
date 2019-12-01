@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Header } from 'semantic-ui-react'
-import { HomePage } from './HomePage'
+import { HomePage } from './components/HomePage'
 
 
 export class App extends Component {
