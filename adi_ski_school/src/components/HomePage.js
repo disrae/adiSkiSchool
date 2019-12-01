@@ -11,7 +11,7 @@ import '../App.css'
 export class HomePage extends Component {
     render() {
         return (
-            <Fragment>
+            <div className="background">
                 <div className="background-image">
                     <h1 className="ctr-text">
                         <Button
@@ -22,8 +22,8 @@ export class HomePage extends Component {
                         />
                     </h1>
                 </div>
-                <Tabs />
-            </Fragment>
+                <Tabs grid="12" />
+            </div>
         )
     }
 }
